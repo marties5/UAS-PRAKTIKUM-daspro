@@ -14,8 +14,8 @@ public class UAS1E21 {
     static int penguranganSkorJikaGenap = 15;
     static int penguranganSkorJikaDiatas50 = 21;
 
-    // static int jumlahTim21 = (duaNimAkhir21 % 3) + 4;
-    static int jumlahTim21 = 3;
+    static int jumlahTim21 = (duaNimAkhir21 % 3) + 4;
+    // static int jumlahTim21 = 3; for testing code 
     static String[] namaTim = new String[0];
     static int[][] skorTim = new int[jumlahTim21][levelPermainan21];
     static int[] totalSkor = new int[jumlahTim21];
